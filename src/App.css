@@ -2,7 +2,6 @@
 .log-list-container {
   padding: 20px 40px;
   width: 100%;
-  max-width: 1200px;
   margin: 0 auto;
   box-sizing: border-box;
 }
@@ -42,7 +41,6 @@
   border-collapse: collapse;
   text-align: left;
   table-layout: fixed;
-  min-width: 950px;
 }
 
 .log-table th, .log-table td {
@@ -283,9 +281,9 @@
 .main-content {
   flex-grow: 1;
   width: 100%;
-  max-width: 1400px;
   margin: 0 auto;
   box-sizing: border-box;
+  padding: 0 4rem;
 }
 
 .page-container {
